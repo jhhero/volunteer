@@ -65,6 +65,7 @@ button {
 button img {
 	vertical-align: middle;
 	margin-left: 0.7em;
+	height: 2.1em;
 }
 
 button.main {

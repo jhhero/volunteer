@@ -1,5 +1,5 @@
 section {
-    padding: 6.7em 0 11em 0;
+    padding: 6.7em 0 11.5em 0;
 }
 
 section article {
@@ -14,7 +14,7 @@ section article h2 {
 	width: 100%;
 	background: url(../img/ht.png) no-repeat;
 	background-position: 0 0.3em;
-	background-size: 31px 23px;
+	background-size: 1.2em;
 }
 
 section article ul li {
@@ -54,7 +54,7 @@ section article ul[name] li {
 	text-align: center;
 	background: url(../img/hht.png) no-repeat;
 	background-position: center center;
-	background-size: 119px 67px;
+	background-size: 4em;
 }
 
 nav {
@@ -71,9 +71,6 @@ nav ul li {
 	font-size: 2.4em;
 	text-align: center;
 	padding: 0.9em 0;
-}
-
-nav ul li {
     border-left: #2b2c2f solid 0.06em;
     border-right: #2b2c2f solid 0.06em;
 }
@@ -84,4 +81,9 @@ nav ul li:first-child {
 
 nav ul li:last-child {
 	border-right: 0;
+}
+
+nav ul li img {
+    height: 3.5em;
+    margin-bottom: 1em;
 }

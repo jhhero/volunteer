@@ -23,15 +23,15 @@ article div {
 
 .checked,.unchecked {
 	display: inline-block;
-	width: 32px;
-	height: 32px;
+	width: 1em;
+	height: 1em;
 	background: url(../img/ro.png) no-repeat;
-	background-position: -32px 0;
-	background-size: 64px 32px;
+	background-position: -1em 0;
+	background-size: 2em;
 }
 
 .unchecked {
-	background-position: 0px 0;
+	background-position: 0 0;
 }
 
 .gap {
