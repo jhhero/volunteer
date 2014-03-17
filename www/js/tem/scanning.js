@@ -19,7 +19,7 @@ $(function() {
 						ajaxGet(temService + "Check", { un: p[1] }, function(data) {
 							var d = XML2JSON(data);
 							if (d[0] && d[1] === p[0]) {
-								$("#head").attr("src", skinPath + d[2]);
+								$("#pic").attr("src", skinPath + d[2]);
 								$("#name").val(p[0]);
 								$("#uname").val(p[1]);
 							} else sorry("该志愿者不存在！")
@@ -35,7 +35,7 @@ $(function() {
 		else {
 			ajaxGet(temService + "Recognized", { un: unm , pid: aid }, function(data) {
 				var d = XML2JSON(data);
-				$("#head").attr("src", "../img/hd.png");
+				$("#pic").attr("src", "../img/hd.png");
 				$("#name").val("");
 				$("#uname").val("");
 				d[0] === 0 ? sorry("请不要重复提交！") : d[1] && confirm("提交成功！\n是否继续扫描？", function(btn) { btn === 1 && $("#scan").click(); }, "提 示", "是,否");
