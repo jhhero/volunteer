@@ -3,7 +3,7 @@ article header {
 	width: 50%;
 }
 
-article img[id='head'] {
+article img[id='pic'] {
 	-webkit-border-radius: 15em;
 	-webkit-box-shadow:0 2px 5px #000;
 }
