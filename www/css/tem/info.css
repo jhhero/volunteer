@@ -5,7 +5,7 @@ article header {
 
 article img[id='pic'] {
 	-webkit-border-radius: 15em;
-	-webkit-box-shadow:0 2px 5px #000;
+	-webkit-box-shadow: 0 0.2em 5px #000;
 }
 
 article header output {

@@ -58,7 +58,7 @@ button {
 	background-color: #505259;
 	color: #fff;
 	padding: 0.5em 1em;
-	-webkit-box-shadow: 0 5px 0 #202123;
+	-webkit-box-shadow: 0 0.2em 0 #202123;
 	margin: 0.3em 0;
 }
 
@@ -70,14 +70,14 @@ button img {
 
 button.main {
 	background-color: #cc162f;
-	-webkit-box-shadow: 0 5px 0 #450b0b;
+	-webkit-box-shadow: 0 0.2em 0 #450b0b;
 }
 
 header[id='fixed'] {
 	position: fixed;
 	top: 0;
 	background-color: #cc162f;
-	-webkit-box-shadow:0 2px 5px #000;
+	-webkit-box-shadow: 0 0.2em 5px #000;
 	width: 100%;
 }
 

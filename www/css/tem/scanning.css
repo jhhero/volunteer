@@ -14,7 +14,7 @@ section div #pic {
 	display: block;
 	margin: 0 auto;
 	-webkit-border-radius: 20em;
-	-webkit-box-shadow:0 2px 5px #000;
+	-webkit-box-shadow: 0 0.2em 5px #000;
 }
 
 section div span {
