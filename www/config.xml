@@ -26,7 +26,7 @@
   <preference name="android-minSdkVersion" value="11" />
   <preference name="android-targetSdkVersion" value="15" />
   <preference name="android-installLocation" value="auto" />
-  <preference name="android-windowSoftInputMode" value="stateHidden|adjustResize" />
+  <preference name="android-windowSoftInputMode" value="stateHidden|adjustPan" />
   <preference name="splash-screen-duration" value="4000" />
   <!-- Icon -->
   <icon src="res/icon/icon.png" />
