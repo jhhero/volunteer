@@ -12,7 +12,7 @@ $(function() {
 	
 	$("#scan").click(function(e) {
 		try {
-			cordova.require("cordova/plugin/BarcodeScanner").scan(function(res) {
+			cordova.plugins.barcodeScanner.scan(function(res) {
 				if (!res.cancelled)
 					if (res.format.toUpperCase() === "QR_CODE") {
 						var p = res.text.split("#");
